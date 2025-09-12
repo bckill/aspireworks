@@ -1,0 +1,80 @@
+.header,
+.hero-section {
+  background: linear-gradient(135deg, #0c2e1c 0%, #2e5f3e 60%, #d4ff88 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+}
+
+.logo img {
+  height: 3.6rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  color: #e9ecef;
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  text-decoration: underline;
+}
+
+.main-nav-link.main-nav-link-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-nav-cta-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-cta-link:link,
+.main-nav-cta-link:visited {
+  display: inline-block;
+  color: #e9ecef;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.main-nav-cta-link:hover,
+.main-nav-cta-link:active {
+  text-decoration: underline;
+}
+
+.main-nav-cta-link-btn:link,
+.main-nav-cta-link-btn:visited {
+  display: inline-block;
+  color: #343a40;
+  text-decoration: none;
+  font-size: 1.8rem;
+  background-color: #e9ecef;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+}
+
+.main-nav-cta-link-btn:hover,
+.main-nav-cta-link-btn:active {
+  background-color: #343a40;
+  color: #e9ecef;
+  transition: all 1s;
+}
